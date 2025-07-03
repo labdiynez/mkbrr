@@ -150,7 +150,7 @@ func CreateTorrent(opts CreateTorrentOptions) (*Torrent, error) {
 	}
 
 	if !opts.NoCreator {
-		mi.CreatedBy = fmt.Sprintf("mkbrr/%s (https://github.com/autobrr/mkbrr)", opts.Version)
+		mi.CreatedBy = fmt.Sprintf("AiHoshino")
 	}
 
 	if !opts.NoDate {
