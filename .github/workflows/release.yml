@@ -3,8 +3,9 @@ name: Release
 on:
   push:
     branches:
-      - "main"
-      - "develop"
+      - "aih"
+      # - "main"
+      # - "develop"
     tags:
       - 'v*'
     paths-ignore:
