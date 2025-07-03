@@ -243,7 +243,7 @@ func (o *Options) ApplyToMetaInfo(mi *metainfo.MetaInfo) (bool, error) {
 		if *o.NoCreator {
 			mi.CreatedBy = ""
 		} else {
-			mi.CreatedBy = fmt.Sprintf("mkbrr/%s", o.Version)
+			mi.CreatedBy = fmt.Sprintf("AiHoshino")
 		}
 		wasModified = true
 	}
